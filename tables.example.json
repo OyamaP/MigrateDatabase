@@ -1,0 +1,14 @@
+{
+  "data": [
+    {
+      "tableName": "shops"
+    },
+    {
+      "tableName": "owners",
+      "filter": {
+        "type": "between.date",
+        "column": "created_at"
+      }
+    }
+  ]
+}
